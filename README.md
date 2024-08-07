@@ -1,6 +1,6 @@
 # ACME CAPSTONE PROJECT
 
-This repository serves as the capstone project developed for the internship program at ACME Software Lab.
+This repository serves as the capstone project developed during the internship program at ACME Software Lab.
 
 ## Frameworks and Tools
 
