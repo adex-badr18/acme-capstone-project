@@ -1,9 +1,10 @@
-import React from 'react'
-
+import HeroSection from './components/HeroSection';
 const CoursesPage = () => {
   return (
-    <div>CoursesPage</div>
-  )
-}
+    <div>
+      <HeroSection />
+    </div>
+  );
+};
 
-export default CoursesPage
+export default CoursesPage;
