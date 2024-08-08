@@ -23,17 +23,17 @@ const CourseCard = ({
       <h3 className="font-bold text-lg mb-1 flex items-center justify-between">
         {title}
         <svg
-          className="w-4 h-4 text-gray-400"
-          fill="none"
-          stroke="currentColor"
+          className="w-4 h-4 text-gray-950"
           viewBox="0 0 24 24"
+          fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+            d="M7 17L17 7M17 7H7M17 7V17"
+            stroke="currentColor"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 5l7 7-7 7"
           />
         </svg>
       </h3>
