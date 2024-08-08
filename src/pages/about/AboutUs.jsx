@@ -18,7 +18,7 @@ const AboutUs = () => {
       ________________________________________________________________________________________________________________________________
       */}
 
-      <div id="hero-section" className='px-8 py-20 flex flex-col gap-16 lg:flex-row lg:px-36 lg:gap-36 xl:gap-56'>
+      <div id="hero-section" className='px-8 py-20 flex flex-col gap-16 xl:flex-row lg:px-36 xl:gap-56'>
         <div id="text" className='flex flex-col gap-4  lg:py-6 lg:gap-8'>
           <h1 className='text-5xl text-[#1B40B3] font-extrabold lg:text-6xl'>About Us</h1>
           <h2 className='text-xl font-bold lg:text-4xl'>Training And Consulting Company</h2>
@@ -43,7 +43,7 @@ const AboutUs = () => {
       */}
 
       <div id="mission" className='flex px-8 flex-col gap-12 py-8 xs:flex-row xl:flex-row lg:px-36 xl:gap-20'>
-        <div id="images-mission" className='bg-gray-100 relative rounded-lg px-2 sm:max-w-[450px] sm:self-center lg:min-w-[450px] lg:self-start'>
+        <div id="images-mission" className='bg-gray-100 relative rounded-lg px-2 sm:max-w-[450px] sm:self-center lg:min-w-[450px] xl:self-start'>
           <img src="/mission-about.png" alt="mission-section-img" className='relative top-5'/>
         </div>
 
