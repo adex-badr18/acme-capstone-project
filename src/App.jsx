@@ -25,6 +25,7 @@ const router = createBrowserRouter([
             { path: "courses", element: <CoursesPage /> },
             { path: "courses/:courseId", element: <CourseDetailsPage /> },
             { path: "courses/:courseId/apply", element: <TrainingForm /> },
+            { path: "*", element: <div>Page not found</div> },
         ],
     },
 ]);
