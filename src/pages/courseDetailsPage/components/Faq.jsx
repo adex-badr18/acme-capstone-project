@@ -34,7 +34,7 @@ const Faq = () => {
 
     return (
                 <div
-                    className="w-full grid gap-7"
+                    className="w-full grid gap-3"
                     id="accordion-flush"
                     data-accordion="collapse"
                     data-active-classes="bg-white text-gray-900 "

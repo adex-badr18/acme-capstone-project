@@ -10,7 +10,7 @@ export const Accordion = ({ faq }) => {
 
 
   return (
-    <div className=" mb-4 ">
+    <div>
       <h2 id="accordion-flush-heading-1" className='border border-[#F1F1F3] py-6 px-10 rounded-lg bg-white grid gap-10'>
         <button
           ref={questionBtn}
@@ -55,7 +55,7 @@ export const Accordion = ({ faq }) => {
         show && (
           <button
             id="accordion-flush-body-2"
-            className=" py-6 flex justify-between w-full px-6 bg-[#F7F7F8]"
+            className=" py-3 flex justify-between w-full px-6 bg-[#F7F7F8]"
             aria-labelledby="accordion-flush-heading-2"
           >
             <span className="pointer-events-none text-base text-[#333333] ">Enrollment Process for Different Courses</span>

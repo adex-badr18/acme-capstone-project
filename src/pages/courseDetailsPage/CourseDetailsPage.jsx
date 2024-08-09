@@ -1,11 +1,13 @@
 import React from 'react';
 import image from "../../assets/acme-course.png";
-import { Card } from './components/Card';
+
+import { Courses } from './components/Courses';
 import Faq from './components/Faq';
 const CourseDetailsPage = () => {
+
   return (
-    <div className=' w-screen grid gap-12 px-8'>
-      <section className=" w-full grid grid-cols-2 gap-20 py-24 items-center justify-between">
+    <div className=' w-screen grid gap-20 px-20'>
+      <section className=" w-full grid grid-cols-2 gap-20 py-8 mb-4 items-center justify-between">
         <h3 className='font-semibold text-[38px]/[57px] text-[#262626] text-nowrap'>
           Data Analysis
         </h3>
@@ -14,20 +16,14 @@ const CourseDetailsPage = () => {
         </p>
       </section>
 
-      <section className='w-full'>
-          <img src={image} className='w-full object-fit' alt="image" />
+      <section className='w-full '>
+          <img src={image} className='w-full aspect-video object-fit' alt="image" />
       </section>
 
-      <section className='grid grid-cols-2 gap-5'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </section>
+      <Courses />
 
-      <button className='justify-self-center nt-24 py-7 my-28 px-20 bg-[#1B40B3] flex items-center rounded-2xl font-bold text-white text-xl outline-0'>
-        Apply now
+      <button className='justify-self-center py-7 my-16 px-20 bg-[#1B40B3] flex gap-3 items-center rounded-2xl font-bold text-white text-xl outline-0'>
+        Apply Now
         <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_145_575)">
           <path d="M4.26318 14.5983H23.0256" stroke="white" stroke-width="2.27423" stroke-linecap="round" stroke-linejoin="round"/>
@@ -46,7 +42,7 @@ const CourseDetailsPage = () => {
       <section className='grid grid-cols-2 p-16 gap-20'>
         <aside className='grid gap-10 place-content-start'>
           <div className="text-wrap text-left text-wrap w-3/4">
-            <h2 className='font-semibold text-[48px]/[45.6px] text-[#262626] mb-2'>
+            <h2 className='font-semibold text-[38px]/[45.6px] text-[#262626] mb-3'>
               Frequently Asked Questions
             </h2>
             <p className='font-normal text-base text-[#333333] text-wrap'>
@@ -54,7 +50,7 @@ const CourseDetailsPage = () => {
             </p>
           </div>
           <button className='w-fit border border-[#F1F1F3] py-3 px-5 rounded-md text-sm font-medium text-[#262626]'>
-          See All FAQ’s
+            See All FAQ’s
           </button>
         </aside>
         <aside>
