@@ -7,7 +7,7 @@ import leftcircle from "../assets/left-circle-bg.svg"
 import backgroundCircle from "../assets/backgroundCircle.svg"
 import UserTesting from "../assets/UserTesting.svg"
 import MagicLeap from "../assets/MagicLeap.svg"
-import CodeCov from "../assets/CodeCov.svg"
+import CodeCov from "../assets/Codecov.svg"
 
 
 const Hero = () => {
