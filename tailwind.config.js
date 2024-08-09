@@ -7,9 +7,9 @@ export default {
             inter: ["Inter", "sans-serif"]
           },
           colors: {
-            'black': '#15803D',
-            'purple': '#486BF2',
+            'black': '#1A2434',
             'light-purple': '#84A2FA',
+            'deep-purple': '#486BF2',
             'dark-purple': '#1B40B4',
             'off-white': '#F9FCFE'
           }
