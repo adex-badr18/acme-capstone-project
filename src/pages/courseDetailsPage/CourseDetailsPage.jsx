@@ -89,7 +89,19 @@ const CourseDetailsPage = () => {
 
 
       <section className='flex p-16 gap-16'>
-
+        <aside className='grid gap-10'>
+          <div className="text-wrap text-left">
+            <h2 className='font-semibold text-[38px]/[45.6px] text-[#262626] '>
+              Frequently Asked Questions
+            </h2>
+            <p className='font-normal text-base text-[#333333]'>
+              Still you have any questions? Contact our Team via support@skillbridge.com
+            </p>
+          </div>
+          <button className='border border-[#F1F1F3] py-3 px-5 rounded-md text-sm font-medium text-[#262626]'>
+          See All FAQ’s
+          </button>
+        </aside>
       </section>
     </div>
   )
