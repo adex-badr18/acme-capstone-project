@@ -7,10 +7,24 @@
 *,
 *::after,
 *::before {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.radial-gradient {
+  width: 476px;
+  height: 476px;
+  position: absolute;
+  background: radial-gradient(
+    circle,
+    rgba(27, 64, 179, 12%),
+    rgb(27, 64, 179, 0%) 40% 70%
+  );
+  border-radius: 50%;
+  left: -191px;
+  top: 310px;
 }
