@@ -28,3 +28,13 @@ body {
   left: -191px;
   top: 310px;
 }
+
+@keyframes infiniteScroll {
+  0% {
+    translate: 0;
+  }
+
+  100% {
+    translate: calc(-50% - 1rem) 0;
+  }
+}

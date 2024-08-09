@@ -6,13 +6,13 @@ import { Testimonial } from "../utility/Data"
 
 const Testimonials = () => {
     return (
-        <div className="bg-[#F9FCFF] mt-20 px-[127px]  py-[91px]">
+        <div className="bg-[#F9FCFF] mt-20 px-4 md:px-[127px]  py-[91px]">
             <div className="flex items-center justify-center gap-4 mb-[18px]">
                 <div className="bg-[#1B40B3] w-[72px] h-1"></div>
                 <p className="text-[#1A2434]">Testimonial</p>
             </div>
             <h3 className="font-semibold mb-[91px] text-[40px] text-center text-[#1A2434]">Student Testimonial</h3>
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
 
                 {
                     Testimonial.map((card) => (

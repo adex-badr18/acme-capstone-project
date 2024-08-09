@@ -9,12 +9,12 @@ import { programCards } from "../utility/Data"
 const Programs = () => {
 
     return (
-        <div className="mt-[70px] px-[127px] ">
+        <div className="mt-[70px] px-4 md:px-[127px] ">
             <p className="text-[#1B40B3] font-bold mb-3 ">Explore Programs</p>
             <h2 className="mb-5 text-[#101828] font-bold text-[36px] ">Our Most Popular Courses</h2>
             <p className="text-[#667085] ">Join our famous courses, the knowledge provided will definitely be useful for you.</p>
 
-            <div className="flex gap-6 mt-10">
+            <div className="flex flex-col md:flex-row gap-6 mt-10">
                 {
                     programCards.map((card) => (
                         <div key={card.id} className="p-6 rounded-lg w-full bg-white shadow-[0_0_10px_rgba(0,0,0,0.1)] ">

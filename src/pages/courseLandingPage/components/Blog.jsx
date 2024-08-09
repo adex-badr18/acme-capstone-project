@@ -5,8 +5,8 @@ import { Link } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa"
 const Blog = () => {
     return (
-        <div className="px-[127px] mt-[140px]">
-            <div className="flex items-center justify-center gap-4 mb-[18px]">
+        <div className="px-4 md:px-[127px]  mt-[140px]">
+            <div className="flex  items-center justify-center gap-4 mb-[18px]">
                 <div className="bg-[#1B40B3] w-[72px] h-1"></div>
                 <p className="text-[#1A2434]">Blog</p>
             </div>
@@ -14,9 +14,9 @@ const Blog = () => {
             <div>
                 <h4 className="text-[#101828] font-semibold mb-8 text-2xl">Our recent blogs</h4>
                 <div>
-                    <div className="flex gap-8">
+                    <div className="flex flex-col md:flex-row gap-8">
                         <div className="grid w-full gap-4">
-                            <div className="flex gap-4">
+                            <div className="flex flex-col md:flex-row gap-4">
                                 <div className="">
                                     <img className="max-w-[310px] h-[200px]" src={delight} alt="" />
                                 </div>
@@ -32,7 +32,7 @@ const Blog = () => {
                                 </div>
 
                             </div>
-                            <div className="flex gap-4 flex-row-reverse">
+                            <div className="flex gap-4 flex-col md:flex-row ">
                                 <div className="">
                                     <img className="w-full h-[200px] max-w-320px" src={ux} alt="" />
                                 </div>
