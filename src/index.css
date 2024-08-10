@@ -29,12 +29,29 @@ body {
   top: 310px;
 }
 
+@media (min-width: 1024px) {
+  .blog-container {
+    & > :nth-child(3) {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      display: grid;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
 @keyframes infiniteScroll {
   0% {
     translate: 0;
   }
 
   100% {
-    translate: calc(-50% - 1rem) 0;
+    translate: calc(-50% - 16px) 0;
+
+    @media (min-width: 1024px) {
+      translate: calc(50% - 55px);
+    }
   }
 }
