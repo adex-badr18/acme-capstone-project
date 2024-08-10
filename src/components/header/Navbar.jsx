@@ -12,8 +12,8 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-transparent py-4 w-[100vw]">
-            <div className="px-4 flex items-center justify-between gap-4 w-full max-w-[1280px] mx-auto">
+        <nav className="bg-transparent py-4">
+            <div className="px-4 flex flex-row items-center justify-between gap-4 w-full max-w-[1280px] mx-auto">
                 {/* Logo */}
                 <div className="flex-none">
                     <Link to="/">
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Menu Links */}
-                <div className="hidden md:flex items-center justify-between space-x-6 flex-auto">
+                <div className="hidden lg:flex items-center justify-between space-x-6 flex-auto">
                     {menuLinks.map((link) => (
                         <NavLink
                             key={link.id}
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <div className="md:hidden flex items-center">
+                <div className="lg:hidden flex items-center">
                     <button
                         className="mobile-menu-button"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -104,7 +104,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Search Bar */}
-                    <div className="flex items-center gap-4 mt-6 p-1 border border-dark-purple rounded-md">
+                    <div className="flex md:hidden items-center gap-4 mt-6 p-1 border border-dark-purple rounded-md">
                         <div className="flex items-center pl-2 w-full">
                             <img
                                 src={SearchIcon}
@@ -144,7 +144,7 @@ const Navbar = () => {
                         ))}
                     </div>
 
-                    <div className="flex flex-col space-y-3">
+                    <div className="flex md:hidden flex-col space-y-3">
                         <Link
                             to="/signup"
                             className="px-3 py-2 w-full text-center font-semibold rounded-md bg-[#EEF2FF] text-dark-purple transition duration-300"
