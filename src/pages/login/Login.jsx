@@ -14,7 +14,7 @@ const Login = () => {
 
     return (
         <section className="relative flex items-center justify-center my-10">
-            <div className="flex flex-col gap-10 w-full max-w-[540px] p-8 shadow-md shadow-light-purple">
+            <div className="flex flex-col gap-10 w-full max-w-[540px] p-8 shadow-md shadow-light-purple rounded-lg">
                 <div className="text-center space-y-2">
                     <h1 className="font-semibold text-4xl text-[#262626]">
                         Login
