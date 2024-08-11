@@ -11,6 +11,30 @@
   margin: 0;
 }
 
+:root {
+  --padding-inline: 1rem; /* Default value for mobile */
+}
+
+@media (min-width: 768px) {
+  /* Tablet */
+  :root {
+    --padding-inline: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop */
+  :root {
+    --padding-inline: 3rem;
+  }
+}
+@media (min-width: 1280px) {
+  /* Desktop */
+  :root {
+    --padding-inline: 6rem;
+  }
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -29,7 +53,7 @@ body {
   top: 310px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .blog-container {
     & > :nth-child(3) {
       grid-column: 2;

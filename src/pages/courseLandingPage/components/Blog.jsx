@@ -34,7 +34,7 @@ const Blog = () => {
     let prevColor = null
 
     return (
-        <div className="px-4 md:px-[127px] my-[70px]  md:my-[140px]">
+        <div className=" my-[70px] px-padding-inline  md:my-[140px]">
             <div className="flex  items-center justify-center gap-4 mb-[18px]">
                 <div className="bg-[#1B40B3] w-[72px] h-1"></div>
                 <p className="text-[#1A2434]">Blog</p>
@@ -42,7 +42,7 @@ const Blog = () => {
             <h3 className=" mb-[41px] text-[40px] text-center  font-semibold text-[#1A2434]">Browse articles</h3>
             <div>
                 <h4 className="text-[#101828] font-semibold mb-8 text-2xl">Our recent blogs</h4>
-                <div className="grid gap-8 md:grid-cols-2 blog-container">
+                <div className="grid gap-8 xl:grid-cols-2 blog-container">
                     {
                         BlogContent.map((blog, index) => (
                             <div key={index} className="flex flex-col md:flex-row gap-4">

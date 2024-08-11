@@ -17,7 +17,7 @@ const Carousel = () => {
 
     useEffect(() => {
         const updateSlidesPerView = () => {
-            if (window.matchMedia("(min-width: 1024px)").matches) {
+            if (window.matchMedia("(min-width: 1280px)").matches) {
                 setSlidesPerView(3)
             } else if (window.matchMedia("(min-width: 768px)").matches) {
                 setSlidesPerView(2)
@@ -89,7 +89,7 @@ const Carousel = () => {
             }
 
             {
-                (activeIndex < paginationList - 1) && <div onClick={() => { nextSlide(activeIndex) }} className='absolute top-1/2 z-50  opacity-30 -right-4 md:-right-16'>
+                (activeIndex < paginationList - 1) && <div onClick={() => { nextSlide(activeIndex) }} className='absolute top-1/2 z-50  opacity-30 -right-4 md:-right-10 lg:-right-16'>
                     <FaAngleRight className={swiperNavStyle} />
                 </div>
             }

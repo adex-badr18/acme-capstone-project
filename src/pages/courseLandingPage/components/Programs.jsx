@@ -7,7 +7,7 @@ import Carousel from "../utility/Carousel";
 const Programs = () => {
 
     return (
-        <div className="mt-[70px] px-4 md:px-[127px] ">
+        <div className="mt-[70px] px-padding-inline ">
             <p className="text-[#1B40B3] font-bold mb-3 ">Explore Programs</p>
             <h2 className="mb-5 text-[#101828] font-bold text-2xl md:text-[36px] ">Our Most Popular Courses</h2>
             <p className="text-[#667085] ">Join our famous courses, the knowledge provided will definitely be useful for you.</p>

@@ -6,9 +6,9 @@ import 'swiper/css';
 
 const ProgramsCard = ({ card }) => {
     return (
-        <div key={card?.id} className="p-6 h-[553px] rounded-lg w-full bg-white shadow-[0_0_10px_rgba(0,0,0,0.1)] ">
+        <div key={card?.id} className=" h-[560px] p-6 rounded-lg w-full bg-white shadow-[0_0_10px_rgba(0,0,0,0.1)] ">
             <div className="mb-8">
-                <img className="w-full" src={card?.image} alt="" />
+                <img className="w-full max-h-60 object-cover" src={card?.image} alt="" />
             </div>
             <p className="text-[#1B40B3] font-semibold mb-3">{card?.type}</p>
             <div className="flex justify-between mb-3">
