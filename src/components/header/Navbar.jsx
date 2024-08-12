@@ -12,7 +12,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-transparent py-4">
+        <nav className="bg-transparent py-2 md:py-4 w-screen">
             <div className="px-4 flex flex-row items-center justify-between gap-4 w-full max-w-[1280px] mx-auto">
                 {/* Logo */}
                 <div className="flex-none">
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Menu Links */}
-                <div className="hidden lg:flex items-center justify-between space-x-6 flex-auto">
+                <div className="hidden lg:flex items-center justify-between space-x-6">
                     {menuLinks.map((link) => (
                         <NavLink
                             key={link.id}
@@ -49,7 +49,7 @@ const Navbar = () => {
                                     isActive
                                         ? "font-semibold text-dark-purple"
                                         : "font-medium text-black",
-                                    "hover:text-dark-purple text-center",
+                                    "hover:text-dark-purple text-center text-nowrap",
                                 ].join(" ")
                             }
                         >
@@ -59,16 +59,16 @@ const Navbar = () => {
                 </div>
 
                 {/* Sign Up & Log In */}
-                <div className="hidden md:flex items-center justify-end space-x-2 flex-auto">
+                <div className="hidden md:flex items-center justify-end space-x-2">
                     <Link
                         to="/signup"
-                        className="px-3 py-2 text-black text-center font-semibold rounded-md hover:bg-[#EEF2FF] hover:text-dark-purple transition duration-300"
+                        className="px-3 py-2 text-black text-center whitespace-nowrap font-semibold rounded-md hover:bg-[#EEF2FF] hover:text-dark-purple transition duration-300"
                     >
                         Sign Up
                     </Link>
                     <Link
                         to="/login"
-                        className="px-3 py-2 text-white bg-dark-purple font-semibold text-center rounded-md hover:bg-[#EEF2FF] hover:text-dark-purple  transition duration-300"
+                        className="px-3 py-2 text-white bg-dark-purple whitespace-nowrap font-semibold text-center rounded-md hover:bg-[#EEF2FF] hover:text-dark-purple  transition duration-300"
                     >
                         Log In
                     </Link>
