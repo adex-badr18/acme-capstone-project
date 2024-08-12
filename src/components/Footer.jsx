@@ -30,8 +30,8 @@ const resourcesLinks = [
 
 const Footer = () => {
     return (
-        <div className="flex flex-col md:flex-row justify-between gap-8 bg-black p-10 md:p-20">
-            <div className="flex flex-col gap-3 md:gap-5 w-1/2 md:w-1/4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 bg-black p-10 md:p-20">
+            <div className="flex flex-col gap-3 md:gap-5">
                 <img
                     src={Logo}
                     alt="ACME Software Lab Logo"
@@ -43,7 +43,7 @@ const Footer = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col gap-3 md:gap-5">
+            <div className="flex flex-col gap-3 md:gap-5 pl-0 lg:pl-14">
                 <h4 className="text-2xl font-semibold text-white tracking-wider">
                     Quick links
                 </h4>
