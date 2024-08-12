@@ -6,8 +6,8 @@ import Faq from './components/Faq';
 const CourseDetailsPage = () => {
 
   return (
-    <div className=' w-screen grid gap-20 px-20'>
-      <section className=" w-full grid grid-cols-2 gap-20 py-8 mb-4 items-center justify-between">
+    <div className=' w-screen grid gap-12 px-20'>
+      <section className=" w-full grid grid-cols-2 gap-20 py-8 mb-4 items-center justify-between border-b border-[#E4E4E7]">
         <h3 className='font-semibold text-[38px]/[57px] text-[#262626] text-nowrap'>
           Data Analysis
         </h3>
@@ -17,7 +17,7 @@ const CourseDetailsPage = () => {
       </section>
 
       <section className='w-full '>
-          <img src={image} className='w-full aspect-video object-fit' alt="image" />
+          <img src={image} className='w-full aspect-video object-fit border-8 rounded-xl border-[#E4E4E4FF]' alt="image" />
       </section>
 
       <Courses />
