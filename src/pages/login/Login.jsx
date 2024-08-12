@@ -18,7 +18,7 @@ const Login = () => {
             <DotsBg />
             <div className="flex flex-col gap-10 w-full max-w-[540px] bg-white p-8 shadow-md shadow-light-purple rounded-lg">
                 <div className="text-center space-y-2">
-                    <h1 className="font-semibold text-4xl text-[#262626]">
+                    <h1 className="font-semibold page-heading text-[#262626]">
                         Login
                     </h1>
                     <p className="">

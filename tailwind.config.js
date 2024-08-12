@@ -15,6 +15,10 @@ export default {
       }, padding: {
         'padding-inline': 'var(--padding-inline)',
       },
+      // fontSize: {
+      //   'page-heading': 'var(--page-heading)',
+      //   'section-heading': 'var(--section-heading)',
+      // },
     },
   },
   plugins: [],
