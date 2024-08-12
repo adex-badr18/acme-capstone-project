@@ -11,7 +11,7 @@ export const Accordion = ({ faq }) => {
 
   return (
     <div>
-      <h2 id="accordion-flush-heading-1" className='border border-[#F1F1F3] py-6 px-10 rounded-lg bg-white grid gap-10'>
+      <h2 id="accordion-flush-heading-1" className='border border-[#F1F1F3] p-4 md:py-6 md:px-10 rounded-lg bg-white grid gap-10'>
         <button
           ref={questionBtn}
           onClick={() => { setShow(!show) }}
@@ -22,16 +22,16 @@ export const Accordion = ({ faq }) => {
           aria-controls="accordion-flush-body-1"
 
         >
-          <span className="pointer-events-none text-lg text-[#262626] ">{question}</span>
+          <span className="pointer-events-none text-base md:text-lg text-[#262626] ">{question}</span>
           {!show && (
-            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='shrink-0' width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="44" height="44" rx="6" fill="#EAEFFF"/>
               <path d="M16 22H22M28 22H22M22 22V16M22 22V28" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
 
           )}
           {show && (
-            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='shrink-0' width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="44" height="44" rx="6" fill="#EAEFFF"/>
               <path d="M16.7573 27.2426L21.9999 22M27.2426 16.7574L21.9999 22M21.9999 22L16.7573 16.7574M21.9999 22L27.2426 27.2426" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
