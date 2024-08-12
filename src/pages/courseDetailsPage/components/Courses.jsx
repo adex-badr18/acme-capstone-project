@@ -45,12 +45,12 @@ const arrayTopics =[
 ]
 
     return(
-        <section className='grid grid-cols-2 gap-10'>
+        <section className='grid md:grid-cols-2 gap-10 mx-auto'>
             {arrayTopics.map((item, index) => {
                 return <Card key={`course-${index}`}
                 id = {item.id}
                  title ={item.title}
-                 topics={item.topics}/>
+                 topics={item.topics} />
             })}
       </section>
     )
