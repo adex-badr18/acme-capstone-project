@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import dotsBg from "../../assets/images/dots-bg.svg";
 import { Link } from "react-router-dom";
 import { Google, Eye, EyeOff, ExternalLink, Dot } from "./components/icons";
+import DotsBg from "../../components/DotsBg";
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -14,7 +15,8 @@ const Login = () => {
 
     return (
         <section className="relative flex items-center justify-center my-10">
-            <div className="flex flex-col gap-10 w-full max-w-[540px] p-8 shadow-md shadow-light-purple rounded-lg">
+            <DotsBg />
+            <div className="flex flex-col gap-10 w-full max-w-[540px] bg-white p-8 shadow-md shadow-light-purple rounded-lg">
                 <div className="text-center space-y-2">
                     <h1 className="font-semibold text-4xl text-[#262626]">
                         Login
@@ -103,18 +105,6 @@ const Login = () => {
                     </p>
                 </div>
             </div>
-
-            <img
-                src={dotsBg}
-                alt="Multiple dots background"
-                className="absolute -top-10 -right-16 lg:right-20"
-            />
-
-            <img
-                src={dotsBg}
-                alt="Multiple dots background"
-                className="absolute -left-16 lg:left-20 xl:left-32 bottom-0 lg:bottom-12"
-            />
 
             <Dot className="absolute bottom-36 right-10 lg:bottom-24 lg:right-44 xl:right-72" />
         </section>

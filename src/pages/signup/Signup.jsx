@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import dotsBg from "../../assets/images/dots-bg.svg";
 import { Link } from "react-router-dom";
 import { Google, Eye, EyeOff, ExternalLink, Dot } from "./components/icons";
+import DotsBg from "../../components/DotsBg";
 
 const Signup = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -14,7 +15,8 @@ const Signup = () => {
 
     return (
         <section className="relative flex items-center justify-center my-10">
-            <div className="flex flex-col gap-10 w-full max-w-[540px] p-8 shadow-md shadow-light-purple rounded-lg">
+            <DotsBg />
+            <div className="flex flex-col gap-10 w-full max-w-[540px] bg-white p-8 shadow-md shadow-light-purple rounded-lg">
                 <div className="text-center space-y-2">
                     <h1 className="font-semibold text-4xl text-[#262626]">
                         Sign Up
@@ -72,7 +74,7 @@ const Signup = () => {
                                         <Eye className="" />
                                     )}
                                 </button>
-                            </div>                    
+                            </div>
                         </div>
 
                         <div className="flex gap-2">
@@ -81,7 +83,22 @@ const Signup = () => {
                                 id="remember-me"
                                 className=""
                             />
-                            <label htmlFor="remember-me">I agree with <Link to="#"className="underline underline-offset-2">Terms of Use</Link> and <Link to="#"className="underline underline-offset-2">Privacy Policy</Link></label>
+                            <label htmlFor="remember-me">
+                                I agree with{" "}
+                                <Link
+                                    to="#"
+                                    className="underline underline-offset-2"
+                                >
+                                    Terms of Use
+                                </Link>{" "}
+                                and{" "}
+                                <Link
+                                    to="#"
+                                    className="underline underline-offset-2"
+                                >
+                                    Privacy Policy
+                                </Link>
+                            </label>
                         </div>
 
                         <button className="px-5 py-3 bg-dark-purple hover:bg-deep-purple text-white font-medium rounded-lg">
@@ -112,20 +129,6 @@ const Signup = () => {
                     </p>
                 </div>
             </div>
-
-            <img
-                src={dotsBg}
-                alt="Multiple dots background"
-                className="absolute -top-10 -right-16 lg:right-20"
-            />
-
-            <img
-                src={dotsBg}
-                alt="Multiple dots background"
-                className="absolute -left-16 lg:left-20 xl:left-32 bottom-0 lg:bottom-12"
-            />
-
-            {/* <Dot className="absolute bottom-36 right-10 lg:bottom-24 lg:right-44 xl:right-72" /> */}
         </section>
     );
 };
