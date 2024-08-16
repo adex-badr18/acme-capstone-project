@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 import { FaCalendarAlt, FaArrowRight } from "react-icons/fa"; // Import the calendar and arrow icons
 import { Link } from "react-router-dom";
 
