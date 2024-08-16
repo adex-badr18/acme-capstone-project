@@ -15,7 +15,7 @@ const Programs = () => {
             <Carousel />
 
             <div className="grid place-content-center">
-                <Link className="border rounded-lg px-4 py-2.5 bg-[#F9FAFB] border-[#D0D5DD] text-[#101828] font-semibold">
+                <Link to="/courses" className="border rounded-lg px-4 py-2.5 bg-[#F9FAFB] border-[#D0D5DD] text-[#101828] font-semibold">
                     Explore All Program
                 </Link>
             </div>
