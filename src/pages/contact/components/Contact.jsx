@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className="text-center font-semibold p-2 md:pt-12 text-blue-900 text-xl md:text-4xl underline">
         CONTACT US
       </h1>
-      <div className="flex flex-col md:flex-row w-full md:w-4/5 p-2 md:p-12 space-y-6 md:space-y-0 md:space-x-6">
+      <div className="flex flex-col md:flex-row w-full gap-10 p-2 md:p-12 space-y-6 md:space-y-0">
         <ContactForm />
         <ContactInfo />
       </div>

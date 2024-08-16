@@ -8,7 +8,7 @@ import {
 
 const ContactInfo = () => {
   return (
-    <div className="w-full lg:w-1/2 p-2 md:p-6 " >
+    <div className="w-full" >
       <p className="p-2 md:p-4 text-base md:text-xl">Ita Osun Junction 36, Ilode Street, Ile-Ife, Osun State, Nigeria.</p>
       <p className="p-2 md:p-4 text-base md:text-xl">+2348160469636</p>
       <p className="p-2 md:p-4 text-base md:text-xl">officialacmesoftwarelab@gmail.com</p>
