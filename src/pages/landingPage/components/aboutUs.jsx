@@ -29,8 +29,8 @@ const AboutUs = () => {
                             <button className='bg-blue-700 text-white font-bold flex gap-1 items-center px-7 py-3 rounded-lg' >Learn More
                                 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_42_1913)">
-                                        <path d="M4.60645 14.4822H23.3298" stroke="white" stroke-width="2.2695" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M15.6702 6.8226L23.3297 14.4822L15.6702 22.1418" stroke="white" stroke-width="2.2695" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M4.60645 14.4822H23.3298" stroke="white" strokeWidth="2.2695" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M15.6702 6.8226L23.3297 14.4822L15.6702 22.1418" stroke="white" strokeWidth="2.2695" strokeLinecap="round" strokeLinejoin="round" />
                                     </g>
                                     <defs>
                                         <clipPath id="clip0_42_1913">

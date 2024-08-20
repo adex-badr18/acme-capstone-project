@@ -6,14 +6,14 @@ import DataAnalysisIcon from "/src/assets/icons/DataAnalysisIcon.png"
 
 const OurService = () => {
     return (
-        <div className='w-full md:h-screen flex flex-col py-10 px-10 bg-[#F9FCFF]  md:px-20 borde border-red-600'>
+        <div className='flex flex-col py-20 px-10 bg-[#F9FCFF]  md:px-20 borde border-red-600'>
             <div className='text-center'>
-                <h1 className='text-blue-700 text-3xl font-bold'>Our Services</h1>
+                <h1 className='text-blue-700 text-3xl font-bold mb-2'>Our Services</h1>
                 <p className='text-lg'>Empowering your future with cutting-edge tech solutions and personalized expertise.</p>
             </div>
 
             {/* Our Service Cards */}
-            <div className='md:flex gap-10 mt-5 borde'>
+            <div className='md:flex gap-10 mt-12 borde'>
                 <div className=' md:w-1/3 h-fit mb-5 md:mb-0 flex flex-col gap-10 bg-blue-700 p-6 rounded-xl'>
                     <div className='flex items-center gap-4 borde'>
                         <img src={WebDevIcon} alt="" />

@@ -8,9 +8,9 @@ import AvrilSong from "/src/assets/images/AvrilSong.png"
 
 const Testimonial = () => {
   return (
-    <div className='w-full h-full md:h-full flex flex-col justify-center items-center py-10 bg-[#e7edf4] px-10 md:px-20 borde border-red-600'>
-      <div className='text-center borde mb-5 '>
-        <div className='flex items-center gap-3 '>
+    <div className='w-full h-full md:h-full flex flex-col justify-center items-center py-20 bg-[#e7edf4] px-10 md:px-20 borde border-red-600'>
+      <div className='text-center borde mb-12'>
+        <div className='flex items-center justify-center gap-3 mb-2'>
           <hr className='w-16 h-1 bg-blue-700' />
           <h1 className=' text-xl text-gray-500'> Testimonial</h1>
         </div>

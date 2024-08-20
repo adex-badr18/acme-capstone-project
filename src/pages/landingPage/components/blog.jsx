@@ -10,9 +10,9 @@ import AgileDevImg from "/src/assets/images/AgileDevImg.png"
 
 const BlogWidget = () => {
   return (
-    <div className='w-full h-full md:h-full flex flex-col justify-center items-center py-10 bg-[#F9FCFF] px-10 md:px-20 borde border-red-600'>
-      <div className='text-center borde mb-5 '>
-        <div className='flex items-center gap-3 '>
+    <div className='flex flex-col justify-center items-center py-10 bg-[#F9FCFF] px-10 md:px-20 borde border-red-600'>
+      <div className='text-center mb-5'>
+        <div className='flex items-center justify-center gap-3 mb-2'>
           <hr className='w-16 h-1 bg-blue-700' />
           <h1 className=' text-xl text-gray-500'> Blog</h1>
         </div>
@@ -96,8 +96,8 @@ const BlogWidget = () => {
       <button className='border bg-blue-700 mt-5 flex gap-2 items-center text-white font-bold px-4 py-2 md:mt-11 rounded-xl' >View All
         <svg width="20" height="20" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_42_1913)">
-            <path d="M4.60645 14.4822H23.3298" stroke="white" stroke-width="2.2695" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M15.6702 6.8226L23.3297 14.4822L15.6702 22.1418" stroke="white" stroke-width="2.2695" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4.60645 14.4822H23.3298" stroke="white" strokeWidth="2.2695" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M15.6702 6.8226L23.3297 14.4822L15.6702 22.1418" stroke="white" strokeWidth="2.2695" strokeLinecap="round" strokeLinejoin="round" />
           </g>
           <defs>
             <clipPath id="clip0_42_1913">

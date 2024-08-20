@@ -9,18 +9,18 @@ import ArrowRightBlack from "/src/assets/icons/ArrowRightBlack.png"
 
 const WhyChooseUs = () => {
   return (
-    <div className='w-full h-full md:h-screen flex flex-col justify-center items-center py-10 bg-[#F9FCFF] px-10 md:px-20 borde borde-red-600'>
-      <div className='text-center borde mb-5 '>
-        <div className='flex items-center gap-3 '>
+    <div className='flex flex-col justify-center items-center py-20 bg-[#F9FCFF] px-10 md:px-20 borde borde-red-600'>
+      <div className='text-center borde mb-12 space-y-2'>
+        <div className='flex justify-center items-center gap-3 '>
           <hr className='w-16 h-1 bg-blue-700' />
           <h1 className=' text-xl text-gray-500'> Why choose us</h1>
         </div>
         <h1 className='text-2xl md:text-3xl font-semibold'>Best Learning Experience</h1>
       </div>
 
-      <div className='md:w-full md:flex gap-6 md:h-96 borde'>
+      <div className='md:w-full md:flex gap-6'>
 
-        <div className='md:w-1/4 h-fit mb-5 md:mb-0 flex flex-col gap-10 p-6 rounded-xl border'>
+        <div className='md:w-1/4 mb-5 md:mb-0 flex flex-col gap-10 p-6 rounded-xl border'>
           <div>
             <img src={Person} alt="" />
           </div>
@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
             <img src={ArrowRightBlack} alt="" />
           </Link>
         </div>
-        <div className='md:w-1/4 h-fit mb-5 md:mb-0 flex flex-col justify-between  gap-10 p-6 rounded-xl border'>
+        <div className='md:w-1/4 mb-5 md:mb-0 flex flex-col justify-between  gap-10 p-6 rounded-xl border'>
           <div>
             <img src={MonitorPlay} alt="" />
           </div>
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
             <img src={ArrowRightBlack} alt="" />
           </Link>
         </div>
-        <div className='md:w-1/4 h- mb-5 md:mb-0 flex flex-col justify-between  gap-10 p-6 rounded-xl border'>
+        <div className='md:w-1/4 mb-5 md:mb-0 flex flex-col justify-between  gap-10 p-6 rounded-xl border'>
           <div>
             <img src={Certificate} alt="" />
           </div>

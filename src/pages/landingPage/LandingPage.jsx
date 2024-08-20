@@ -6,6 +6,8 @@ import HolidayBanner from "./components/holiddayBanner";
 import WhyChooseUs from "./components/whyChooseUs";
 import Testimonial from "./components/testimonial";
 import BlogWidget from "./components/blog";
+import OurCourses from './components/ourCourses';
+import Blog from '../courseLandingPage/components/Blog';
 
 
 const LandingPage = () => (
@@ -15,8 +17,10 @@ const LandingPage = () => (
     <OurService />
     <HolidayBanner />
     <WhyChooseUs />
+    <OurCourses />
     <Testimonial />
-    <BlogWidget />
+    {/* <BlogWidget /> */}
+    <Blog />
 
   </div>
 
