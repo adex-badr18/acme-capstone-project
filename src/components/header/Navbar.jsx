@@ -12,7 +12,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-transparent py-2 md:py-4 w-screen">
+        <nav className="fixed z-50 shadow-lg bg-white py-2 md:py-4 w-screen">
             <div className="px-4 flex flex-row items-center justify-between gap-4 w-full max-w-[1280px] mx-auto">
                 {/* Logo */}
                 <div className="flex-none">

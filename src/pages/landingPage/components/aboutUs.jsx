@@ -4,7 +4,7 @@ import AboutUsImage from "/src/assets/images/aboutUsImage.jpeg"
 
 const AboutUs = () => {
     return (
-        <div id="about-us-section" className='w-full h-fit flex flex-col py-10 bg-[#e1eefa] px-10 md:px-20 borde border-red-600'>
+        <div className='w-full h-fit flex flex-col py-10 bg-[#e1eefa] px-10 md:px-20 borde border-red-600'>
 
             <div className='w-full h-fit mb-10 md:flex justify-cente md:items-center flex-row-rverse md:gap-20 borde border-black '>
                 <div className=' md:w-1/2 mb-5 md:mb-0 borde'>

@@ -13,7 +13,7 @@ const RootLayout = () => {
                 <Navbar />
             </header>
 
-            <main>
+            <main className="pt-20 md:pt-[6.5rem]">
                 <Outlet />
             </main>
 
