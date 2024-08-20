@@ -3,6 +3,7 @@ import image from "../../assets/acme-course.png";
 
 import { Courses } from './components/Courses';
 import Faq from './components/Faq';
+import { Link } from 'react-router-dom';
 const CourseDetailsPage = () => {
 
   return (
@@ -29,7 +30,7 @@ const CourseDetailsPage = () => {
 
       <Courses />
 
-      <button className='justify-self-center py-7 my-16 px-20 bg-[#1B40B3] flex gap-3 items-center rounded-2xl font-bold text-white text-xl outline-0'>
+      <Link to="/courses/data/apply" className='justify-self-center py-7 my-16 px-20 bg-[#1B40B3] flex gap-3 items-center rounded-2xl font-bold text-white text-xl outline-0'>
         Apply Now
         <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_145_575)">
@@ -43,12 +44,12 @@ const CourseDetailsPage = () => {
           </defs>
          </svg>
 
-      </button>
+      </Link>
 
 
       <section className='grid md:grid-cols-2 p-6 md:p-12 lg:p-16 gap-10 md:gap-20'>
         <aside className='grid gap-10 place-content-center md:place-content-start'>
-          <div className="text-wrap text-wrap w-full md:w-3/4">
+          <div className="text-wrap w-full md:w-3/4">
             <h2 className='font-semibold text-2xl md:text-[38px]/[45.6px] text-[#262626] mb-3'>
               Frequently Asked Questions
             </h2>

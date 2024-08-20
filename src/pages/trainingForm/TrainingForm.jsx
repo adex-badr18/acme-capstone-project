@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import { FaCalendarAlt, FaArrowRight } from "react-icons/fa"; // Import the calendar and arrow icons
 import { Link } from "react-router-dom";
 
@@ -146,7 +146,7 @@ const TrainingForm = () => {
                 Kindly complete the form correctly
             </h1>
             <p className="text-center mb-6">
-                <Link to="#" className="text-gray-600 hover:text-blue-300">
+                <Link to="/login" className="text-gray-600 hover:text-blue-300">
                     Already registered?{" "}
                     <span className="text-blue-500">Login here</span>
                 </Link>

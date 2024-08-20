@@ -13,7 +13,7 @@ const ProgramsCard = ({ card }) => {
             <p className="text-[#1B40B3] font-semibold mb-3">{card?.type}</p>
             <div className="flex justify-between mb-3">
                 <h3 className="text-[22px] md:text-2xl  font-semibold text-[#101828]">{card?.title}</h3>
-                <Link>
+                <Link to="/courses/data">
                     <IoMdArrowDown className="text-2xl text-[#101828] rotate-[225deg]" />
 
                 </Link>
