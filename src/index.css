@@ -13,6 +13,7 @@
 
 .page-heading {
   font-size: 1.5rem;
+  background: url();
 }
 
 @media (min-width: 768px) {
