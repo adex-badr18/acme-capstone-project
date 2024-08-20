@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import Computer from "/src/assets/images/computer.png"
 import Jane from "/src/assets/images/jane.png"
 import Jenny from "/src/assets/images/jenny.png"
-import Esther from "/src/assets/images/esther.png"
-import Data from "/src/assets/images/data.png"
+import Esther from "/src/assets/images/Esther.png"
+import Data from "/src/assets/images/Data.png"
 import AgileDevImg from "/src/assets/images/AgileDevImg.png"
 
 
