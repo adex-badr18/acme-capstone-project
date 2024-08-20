@@ -114,7 +114,7 @@ const AboutUs = () => {
       <div id='why-choose-us' className='px-8 flex flex-col justify-center items-center w-full'>
         <h1 className='font-bold text-3xl text-center py-16 lg:text-4xl'>Why Choose Us?</h1>
 
-        <div id="reasons" className='flex flex-col justify-center gap-4 md:flex-row md:flex-wrap lg:px-4 xl:justify-start xl:px-36'> 
+        <div id="reasons" className='flex flex-col justify-center gap-4 md:flex-row md:flex-wrap lg:px-4 xl:grid xl:grid-cols-2 xl:justify-center xl:px-36 2xl:grid-cols-3'> 
           {reasons.map((reason, index) => (
             <div key={reason.number} id='reason' className='bg-[#F7FDF9] transition ease-out duration-300 cursor-pointer border border-gray-200 py-4 px-4 pb-10 
             rounded-lg flex flex-col gap-4 hover:bg-blue-100 hover:scale-[102%] md:h-[236px] md:w-[376px]'>
